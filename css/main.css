@@ -1,0 +1,143 @@
+#top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+#top ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#top ul li {
+  width: 23%;
+  margin-bottom: 40px;
+  transition: 0.5s;
+}
+@media (max-width: 900px) {
+  #top ul li {
+    width: 47%;
+  }
+}
+#top ul li:hover {
+  opacity: 0.6;
+}
+#top a {
+  display: block;
+  text-align: center;
+}
+
+.content {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+h1 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-list li {
+  width: 23%;
+  margin-bottom: 40px;
+}
+@media (max-width: 900px) {
+  .product-list li {
+    width: 47%;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination li {
+  padding: 0 20px;
+}
+
+#company {
+  max-width: 600px;
+}
+#company dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  #company dl {
+    flex-direction: column;
+  }
+}
+#company dt {
+  width: 30%;
+  border-bottom: solid 1px #dcdbdb;
+  padding: 20px 10px;
+}
+@media (max-width: 900px) {
+  #company dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
+}
+#company dt:last-of-type {
+  border-bottom: none;
+}
+#company dd {
+  width: 70%;
+  border-bottom: solid 1px #dcdbdb;
+  padding: 20px 10px;
+}
+@media (max-width: 900px) {
+  #company dd {
+    width: 100%;
+    padding-top: 5px;
+  }
+}
+#company dd:last-of-type {
+  border-bottom: none;
+}
+#company .map {
+  filter: grayscale(1);
+}
+#company .map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+#item {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#item .item-img {
+  width: 50%;
+}
+#item .item-text {
+  width: 42%;
+}
+#item .item-text p {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+#item .item-text dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#item .item-text dt {
+  width: 30%;
+}
+#item .item-text dd {
+  width: 70%;
+}
+
+.link-text {
+  display: block;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
